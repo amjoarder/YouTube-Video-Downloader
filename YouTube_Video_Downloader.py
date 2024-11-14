@@ -11,9 +11,9 @@ yt = YouTube(link)
 #Downlaod
 yd = yt.streams.get_highest_resolution()
 #Put the video link
-yd.download('https://www.youtube.com/watch?v=JjpGvjy0Gxk')
+yd.download('d:/study')
 
 '''
 run with
-python YouTube_Video_Downloader.py https://www.youtube.com/watch?v=JjpGvjy0Gxk
+python YouTube_Video_Downloader.py "https://www.youtube.com/watch?v=JjpGvjy0Gxk"
 '''
